@@ -118,7 +118,7 @@ window.addEventListener('scroll', scrollActive)
 
 /* ----- DOWNLOAD CV FUNCTION ----- */
 function downloadCV() {
-  var cvUrl = 'file:///C:/venu%20files/VenuExpRes.pdf';
+  var cvUrl = 'https://drive.google.com/file/d/1_4W9XdagiEZzpowsVM6MAfowaI1xj3FT/view?usp=sharing';
   var link = document.createElement('a');
   link.download = 'VenuExpRes.pdf';
   link.href = cvUrl;
